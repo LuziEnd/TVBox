@@ -50,7 +50,7 @@
             <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Kaynak Kodumuz Herkese Açıktır</h1>
             <p class="lead">Kaynak kodumuzu mu görmek istiyorsunuz? Kaynak kodumuz size her zaman açıktır.</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Kaynak Kodu</button>
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" onclick="github()">Kaynak Kodu</button>
             </div>
           </div>
         </div>
@@ -73,6 +73,11 @@
       </div>
 
       <script src="./assets/js/nprogress.js"></script>
+    <script>
+        function github() {
+            location.href = "https://github.com/LuziEnd/TVBox";
+        }
+    </script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
