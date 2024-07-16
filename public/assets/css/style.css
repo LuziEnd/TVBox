@@ -1,0 +1,19 @@
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+  }
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #696969;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #999999;
+}
+

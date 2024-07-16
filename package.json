@@ -1,0 +1,14 @@
+{
+  "name": "tvbox-app",
+  "version": "0.0.1",
+  "description": "Ücretsiz yayın izleme platformu",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LuziEnd",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
