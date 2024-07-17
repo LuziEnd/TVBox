@@ -1,3 +1,4 @@
+<img src="https://tvbox.luzixus.xyz/assets/images/hero.png">
 <h1 align="left">TVBox (beta)</h1>
 
 ###
